@@ -1,0 +1,59 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "html",
+    "css",
+    "markdown",
+    "graphql",
+    "reasonml",
+    "reason",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "dart",
+    "python"
+  ],
+  "diagnostic.virtualText": true,
+  "diagnostic.errorSign": "😡",
+  "diagnostic.warningSign": "⚠️ ",
+  "diagnostic.infoSign": "ℹ️ ",
+  "diagnostic.hintSign": "💡",
+  "codeLens.enable": true,
+  "eslint.enable": false,
+  "eslint.autoFixOnSave": true,
+  "suggest.echodocSupport": true,
+  "explorer.width": 45,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.git.enable": true,
+  "explorer.previewAction.onHover": "content",
+  "explorer.position": "right",
+  "explorer.keyMappings.global": {
+    "<cr>": [
+      "expandable?",
+      "expand",
+      "open"
+    ],
+    "v": "open:vsplit"
+  },
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "flutter.provider.enableSnippet": true,
+  "languageserver": {
+    "ocaml": {
+      "command": "ocaml-language-server",
+      "args": [
+        "--stdio"
+      ],
+      "filetypes": [
+        "ocaml"
+      ]
+    },
+    "reason": {
+      "command": "reason-language-server",
+      "filetypes": [
+        "reason"
+      ]
+    }
+  }
+}
