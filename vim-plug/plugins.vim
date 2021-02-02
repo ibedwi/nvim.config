@@ -62,6 +62,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " coc-json
   " coc-flutter
   " coc-css
+  let g:coc_global_extensions = [
+  \ 'coc-tsserver'
+  \ ]
    
   " Denite (https://github.com/Shougo/denite.nvim)
   if has('nvim')
@@ -71,6 +74,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'roxma/nvim-yarp'
     Plug 'roxma/vim-hug-neovim-rpc'
   endif
+
+  Plug 'prettier/vim-prettier', {
+      \ 'do': 'yarn install',
+      \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'yaml', 'html', 'reason', 'reasonml'] }
 
   " Deoplete (https://github.com/Shougo/deoplete.nvim)
   " provides an extensible and asynchronous completion framework for neovim/Vim8.
@@ -143,6 +150,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " colorizer.lu (https://github.com/norcalli/nvim-colorizer.lua)
   " Show hexcode color in editor
   Plug 'norcalli/nvim-colorizer.lua'
+
+  " typescript-vim (leafgarland/typescript-vim)
+  "
+  Plug 'leafgarland/typescript-vim' 
 
   " ========================================================================== 
   " VIM's UI                                                  

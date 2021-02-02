@@ -14,14 +14,21 @@
     "dart",
     "python"
   ],
+  "tsserver.formatOnType": true,
+  "eslint.enable": false,
+  "eslint.autoFixOnSave": true,
+  "eslint.fileTypes": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
   "diagnostic.virtualText": true,
   "diagnostic.errorSign": "😡",
   "diagnostic.warningSign": "⚠️ ",
   "diagnostic.infoSign": "ℹ️ ",
   "diagnostic.hintSign": "💡",
   "codeLens.enable": true,
-  "eslint.enable": false,
-  "eslint.autoFixOnSave": true,
   "suggest.echodocSupport": true,
   "explorer.width": 45,
   "explorer.icon.enableNerdfont": true,
@@ -29,11 +36,7 @@
   "explorer.previewAction.onHover": "content",
   "explorer.position": "right",
   "explorer.keyMappings.global": {
-    "<cr>": [
-      "expandable?",
-      "expand",
-      "open"
-    ],
+    "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
   },
   "python.linting.enabled": true,
@@ -42,18 +45,12 @@
   "languageserver": {
     "ocaml": {
       "command": "ocaml-language-server",
-      "args": [
-        "--stdio"
-      ],
-      "filetypes": [
-        "ocaml"
-      ]
+      "args": ["--stdio"],
+      "filetypes": ["ocaml"]
     },
     "reason": {
       "command": "reason-language-server",
-      "filetypes": [
-        "reason"
-      ]
+      "filetypes": ["reason"]
     }
   }
 }
