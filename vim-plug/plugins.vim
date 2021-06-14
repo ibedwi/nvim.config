@@ -155,6 +155,13 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   "
   Plug 'leafgarland/typescript-vim' 
 
+  " Flutter Support 
+  Plug 'dart-lang/dart-vim-plugin'
+  Plug 'thosakwe/vim-flutter'
+  Plug 'natebosch/vim-lsc'
+  Plug 'natebosch/vim-lsc-dart' 
+  
+  
   " ========================================================================== 
   " VIM's UI                                                  
   " Plugins that improves the vim's UI
