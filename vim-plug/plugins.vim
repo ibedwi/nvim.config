@@ -122,6 +122,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " This plugin is used for displaying thin vertical lines at each indentation level for code indented with spaces.
   Plug 'Yggdroot/indentLine'
 
+
+  " indentGuide (https://github.com/nathanaelkane/vim-indent-guides)
+  " used to add indent guides
+  Plug 'nathanaelkane/vim-indent-guides'
+
   " vim-signature (https://github.com/kshenoy/vim-signature)
   " plugin to place, toggle and display marks.
   Plug 'kshenoy/vim-signature'
@@ -160,6 +165,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'thosakwe/vim-flutter'
   Plug 'natebosch/vim-lsc'
   Plug 'natebosch/vim-lsc-dart' 
+  
+  " Golang support
+  Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+ 
   
   
   " ========================================================================== 
