@@ -139,6 +139,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   " Github plugin  for vim. Open project's github link
   Plug 'tpope/vim-rhubarb'
 
+  " vim-commentary (https://github.com/tpope/vim-commentary)
+  " Plugin to comment lines easily
+  Plug 'tpope/vim-commentary'
+
   " gv.vim (https://github.com/junegunn/gv.vim)
   " Git commit browser. View commit in a tree format.
   Plug 'junegunn/gv.vim'
